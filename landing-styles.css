@@ -109,7 +109,7 @@ img {
 
 main {
     width: 1600px;
-    height: 4375px;
+    height: 4340px;
 }
 
 .panda {
@@ -198,7 +198,7 @@ main {
 
 .backstage_bg-img {
     position: absolute;
-    right: 430px;
+    right: 0px;
     top: 865px;
 }
 
@@ -259,6 +259,7 @@ main {
 .animals_card {
     width: 366px;
     height: 426px;
+    border: 1px solid rgba(250, 111, 50, 1);
 }
 
 .card_descr {
@@ -341,7 +342,7 @@ main {
 .strelitzia {
     position: absolute;
     top: 2400px;
-    right: 63px;
+    right: 0px;
 }
 
 .palm_foto {
@@ -433,7 +434,6 @@ h2 {
     margin: 0 auto;
     margin-top: 140px;
     width: 1160px;
-    height: 575px;
 }
 
 h3 {
@@ -444,23 +444,97 @@ h3 {
     text-align: center;
     color: #333B41;
 }
+
 .testimonials_blocks {
     display: flex;
     justify-content: space-between;
-    
+
 }
+
 .testimonials_peoples {
     margin-top: 47px;
     width: 268px;
     height: 391px;
     background: #F1F3F2;
-border-radius: 20px;
+    border-radius: 20px;
+    border: 2px solid rgba(254, 189, 171, 0.74);
+}
+
+.testimonials_title {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+.testimonials_descr {
+    margin-left: 10px;
+}
+
+
+h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.testimonials_descr p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+    color: #BDBDBD;
+}
+
+
+.testimonials_text {
+    width: 237px;
+    height: 305px;
+    margin-top: 10px;
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #767474;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.testimonials_scroll {
+    margin: 0 auto;
+    margin-top: 21px;
+    width: 599px;
+    height: 8px;
+    background: #F5F7F6;
+    border-radius: 5px;
+    /* overflow-x: scroll; */
+}
+
+.testimonials_scroll:hover {
+    cursor: pointer;
+}
+
+.bloc {
+    width: 115.19px;
+    height: 6px;
+    top: 507px;
+    background: #FE9013;
+    border-radius: 5px;
 }
 
 
 
-footer {
+.feedback {
+    margin: 0 0 auto;
+    margin-top: 32px;
+}
 
+
+footer {
+    margin-top: 180px;
     height: 443px;
     width: 1600px;
     background: #111115;
